@@ -124,6 +124,7 @@
     @apply border-border outline-ring/50;
   }
 
+<<<<<<< HEAD
   html {
     scroll-behavior: smooth;
   }
@@ -147,6 +148,10 @@
   /* Enhanced 3D rendering */
   * {
     transform-style: preserve-3d;
+=======
+  body {
+    @apply bg-background text-foreground;
+>>>>>>> 9c42043afc1135f9fdacae80eb446b3a22d4630f
   }
 
   /**
@@ -199,4 +204,8 @@
     font-weight: var(--font-weight-normal);
     line-height: 1.5;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9c42043afc1135f9fdacae80eb446b3a22d4630f

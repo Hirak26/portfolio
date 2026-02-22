@@ -1,7 +1,11 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { useRef } from 'react';
 import { GraduationCap, MapPin, Sparkles } from 'lucide-react';
+<<<<<<< HEAD
 import profileImage from 'figma:asset/15db92de0475094ca3635d5a3f6b6bfed3038609.png';
+=======
+import profileImage from '../../assets/Hirak.png';
+>>>>>>> 9c42043afc1135f9fdacae80eb446b3a22d4630f
 
 export function AboutChicago() {
   const ref = useRef(null);

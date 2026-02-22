@@ -1,3 +1,20 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+<<<<<<< HEAD
+=======
+
+html {
+  scroll-behavior: auto;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Nice smooth text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+>>>>>>> 9c42043afc1135f9fdacae80eb446b3a22d4630f
