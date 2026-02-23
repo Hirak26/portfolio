@@ -34,7 +34,7 @@ export function WebflowAbout() {
               className="relative aspect-[3/4] rounded-3xl overflow-hidden"
             >
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1649433658557-54cf58577c68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBpbmRpYW4lMjBtYW4lMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzA5OTAyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="../src/assets/Hirak.png"
                 alt="Hirak Modi"
                 className="w-full h-full object-cover"
               />
