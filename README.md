@@ -1,8 +1,7 @@
 
-  # 3D Animated Portfolio
+  # Hirak Modi Portfolio
 
-  This is a code bundle for 3D Animated Portfolio. The original project is available at https://www.figma.com/design/EUJPdin56SW70iRrk0WeG3/3D-Animated-Portfolio.
-
+  Here is a Professional Portfolio About Me.
   ## Running the code
 
   Run `npm i` to install the dependencies.
