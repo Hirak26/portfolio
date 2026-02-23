@@ -8,13 +8,14 @@ import { WebflowPublications } from '../app/components/WebflowPublications';
 import { WebflowContact } from '../app/components/WebflowContact';
 import { CustomCursor } from '../app/components/CustomCursor';
 import { PageLoader } from '../app/components/PageLoader';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
     <>
       <PageLoader />
       <div className="min-h-screen bg-white">
+        <Analytics />
         <CustomCursor />
         <WebflowNav />
         <WebflowHero />
