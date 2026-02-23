@@ -58,7 +58,7 @@ export function WebflowNav() {
         className={`fixed top-0 left-0 right-0 z-[9999] transition-all duration-500 ${
           scrolled
             ? 'bg-black/80 backdrop-blur-xl border-b border-white/10 shadow-2xl'
-            : 'bg-transparent'
+            : 'bg-black/50 backdrop-blur-md border-b border-white/5'
         }`}
       >
         <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
