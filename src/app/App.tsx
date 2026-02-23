@@ -1,3 +1,4 @@
+import PageLoader from "./components/PageLoader";
 import { WebflowNav } from '../app/components/WebflowNav';
 import { WebflowHero } from '../app/components/WebflowHero';
 import { WebflowAbout } from '../app/components/WebflowAbout';
@@ -7,16 +8,13 @@ import { WebflowSkills } from '../app/components/WebflowSkills';
 import { WebflowPublications } from '../app/components/WebflowPublications';
 import { WebflowContact } from '../app/components/WebflowContact';
 import { CustomCursor } from '../app/components/CustomCursor';
-import { PageLoader } from '../app/components/PageLoader';
-import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
     <>
       <PageLoader />
-      <div className="min-h-screen bg-white">
-        <Analytics />
-        <CustomCursor />
+
+              <CustomCursor />
         <WebflowNav />
         <WebflowHero />
         <WebflowAbout />
@@ -25,7 +23,12 @@ export default function App() {
         <WebflowSkills />
         <WebflowPublications />
         <WebflowContact />
-      </div>
+      <main className="min-h-screen bg-black text-white">
+        
+      </main>
     </>
   );
 }
+
+
+    
